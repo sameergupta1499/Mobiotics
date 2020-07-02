@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 import json
 app = Flask(__name__)
 
-@app.route('/products')
+@app.route('/mobiotics')
 def products():
     f = open('dataSet.json')
     data = json.load(f)
@@ -17,5 +17,4 @@ def after_request(response):
     return response
 
 if __name__ == '__main__':
-    #app.run(host='0.0.0.0', port=80,debug=True)
-    app.run(port=5050,debug=True)
+    app.run(host='0.0.0.0', port=5000)

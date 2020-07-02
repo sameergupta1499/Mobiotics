@@ -8,7 +8,7 @@ class ProductContainer extends React.Component {
 
     componentDidMount() {
         ////////////////////////////////////Fetching Data///////////////////////////////////////////
-        const fetchPromise = fetch("http://127.0.0.1:5050/products");
+        const fetchPromise = fetch("http://127.0.0.1:7000/products");
         fetchPromise.then(response => {
             return response.json();
         }).then(people => {
