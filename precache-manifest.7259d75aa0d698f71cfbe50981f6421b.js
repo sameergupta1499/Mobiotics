@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92984d8af8f1b90a4ee513c0133b21f7",
+    "revision": "5504e970653e94cc8187358b39dbc0c5",
     "url": "/Mobiotics/index.html"
   },
   {
-    "revision": "7ac42f9815bb21d08da3",
+    "revision": "bf2e690c248d3be95406",
     "url": "/Mobiotics/static/css/main.bf523082.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mobiotics/static/js/2.2c409a14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ac42f9815bb21d08da3",
-    "url": "/Mobiotics/static/js/main.fe25e9ac.chunk.js"
+    "revision": "bf2e690c248d3be95406",
+    "url": "/Mobiotics/static/js/main.8c77cd21.chunk.js"
   },
   {
     "revision": "e94f3e0514653dddb2df",
