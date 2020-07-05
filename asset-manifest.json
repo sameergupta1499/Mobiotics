@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mobiotics/static/css/main.3ee16020.chunk.css",
+    "main.css": "/Mobiotics/static/css/main.c50198f1.chunk.css",
     "main.js": "/Mobiotics/static/js/main.5988b53c.chunk.js",
     "main.js.map": "/Mobiotics/static/js/main.5988b53c.chunk.js.map",
     "runtime-main.js": "/Mobiotics/static/js/runtime-main.cbdb0724.js",
@@ -8,16 +8,16 @@
     "static/js/2.2c409a14.chunk.js": "/Mobiotics/static/js/2.2c409a14.chunk.js",
     "static/js/2.2c409a14.chunk.js.map": "/Mobiotics/static/js/2.2c409a14.chunk.js.map",
     "index.html": "/Mobiotics/index.html",
-    "precache-manifest.7cca8702862cd731348a06f4efbf3fca.js": "/Mobiotics/precache-manifest.7cca8702862cd731348a06f4efbf3fca.js",
+    "precache-manifest.04936e8069749c421c3d31f50015114b.js": "/Mobiotics/precache-manifest.04936e8069749c421c3d31f50015114b.js",
     "service-worker.js": "/Mobiotics/service-worker.js",
-    "static/css/main.3ee16020.chunk.css.map": "/Mobiotics/static/css/main.3ee16020.chunk.css.map",
+    "static/css/main.c50198f1.chunk.css.map": "/Mobiotics/static/css/main.c50198f1.chunk.css.map",
     "static/js/2.2c409a14.chunk.js.LICENSE.txt": "/Mobiotics/static/js/2.2c409a14.chunk.js.LICENSE.txt",
     "static/media/greenTick.gif": "/Mobiotics/static/media/greenTick.7bb021bf.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.cbdb0724.js",
     "static/js/2.2c409a14.chunk.js",
-    "static/css/main.3ee16020.chunk.css",
+    "static/css/main.c50198f1.chunk.css",
     "static/js/main.5988b53c.chunk.js"
   ]
 }
