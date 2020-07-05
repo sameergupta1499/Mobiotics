@@ -1,37 +1,27 @@
 import React from "react";
-
-class ProductContainer extends React.Component {
-    constructor(props) {
-        super(props)
-        this.onUpdateProducts = this.onUpdateProducts.bind(this)
-    }
-
-    componentDidMount() {
-        ////////////////////////////////////Fetching Data///////////////////////////////////////////
-        const fetchPromise = fetch("http://127.0.0.1:7000/products");
-        fetchPromise.then(response => {
-            return response.json();
-        }).then(people => {
-            console.log(people[0]["Brand_name"]);
-        });
-    }
-
-    onUpdateProducts() {
-
-    }
-
-    componentDidUpdate(prevProps) {
-
-    }
-
-    render() {
-        //console.log("inside product container component")
+import ImgContainer from "./ImgContainer/ImgContainer"
+import AddToCart from "./AddToCart/AddToCart"
+import styles from './ProductContainer.css';
+function ProductContainer(props) {
         return (
             <>
-                <p>this is a para</p>
+            <div className={"product-item-container"}>
+                <div className={"product-item"}>
+                    <div className={"product-left-section"}>
+                    <ImgContainer productImage={props.product.Product_img} productName={props.product.Product_name}/>
+                    <div className={"discount"}>{props.product.Product_discount}% OFF</div>
+                    </div>
+                    <div className={"product-right-section"}>
+                        <div className={"brand-name"}>{props.product.Brand_name}</div>
+                        <div className={"product-name"}>{props.product.Product_name}</div>
+                        <div className={"weight"}>{props.product.Weight}</div>
+                        <div className={"product_MRP"}>MRP {props.product.Product_MRP}</div>
+                        <div className={"product_price"}>Rs {props.product.Product_price}</div>
+                        <AddToCart product={props.product} incDecHandler={props.incDecHandler}/>
+                    </div>
+                </div>
+            </div>
             </>
         )
-    }
 }
-
 export default ProductContainer;

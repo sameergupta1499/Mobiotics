@@ -1,0 +1,1 @@
+export const SERVER_DOMAIN_URL="http://35.158.140.178:5000/mobiotics"

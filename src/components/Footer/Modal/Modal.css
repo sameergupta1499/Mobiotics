@@ -1,0 +1,38 @@
+.hideModal{
+    display: none;
+}
+.showModal{
+    text-align: center;
+    background: white;
+    opacity:1;
+    color:black;
+    width: 74%;
+    height: 74%;
+    border: 1px solid rgba(0,0,0,.1);
+    position: fixed;
+    top: 13%;
+    left: 13%;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,.1);
+    display: block;
+}
+.modalCheckImage{
+    max-height: 85px;
+}
+.tSMessage{
+    margin-top: 15%;
+}
+.closeModalButton{
+    margin: 10px;
+    color: #2f2f32;
+    border:none;
+    background-color: white;
+    font-size:24px;
+    display:flex;
+    float:right;
+}
+.closeModalButton:focus{
+    outline:none;
+}
+.closeModalButton:hover{
+    color:#AEE9FF;
+}
